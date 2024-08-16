@@ -1,3 +1,5 @@
+// Written by Timothy Price | CSCI 3400 · DSA | Fall 2024 
+
 using System.Diagnostics; 
 
 namespace pset1;
@@ -5,6 +7,7 @@ namespace pset1;
 public class ComplexityAnalysis{
 
    public static Stopwatch timer = new Stopwatch();
+   
    public decimal Nlinear(int n){       // O(n)
         timer.Restart(); 
         
@@ -16,7 +19,8 @@ public class ComplexityAnalysis{
         decimal micro = (decimal)timer.Elapsed.Ticks / 10M;
         return micro;
    }
-   public decimal NSquared(int n){           // O(n^2)
+   
+   public decimal NSquared(int n){           // O(n²n)
         timer.Restart();
 
         for(int i = 0; i < n; i++) {
@@ -30,8 +34,9 @@ public class ComplexityAnalysis{
         decimal micro = (decimal)timer.Elapsed.Ticks / 10M;
         return micro;
    }
-   public decimal NSquaredN(int n){          // O(n^2 + n)
-        timer.Restart(); 
+  
+   public decimal NSquaredN(int n){          // O(n² + n)
+       timer.Restart(); 
         
         for(int i = 0; i < n; i++) {
             // running for loop n times

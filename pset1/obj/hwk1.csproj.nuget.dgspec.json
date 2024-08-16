@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/tim/repos/CSCI3400/hwk1/hwk1.csproj": {}
+    "/home/tim/repos/CSCI3400/pset1/hwk1.csproj": {}
   },
   "projects": {
-    "/home/tim/repos/CSCI3400/hwk1/hwk1.csproj": {
+    "/home/tim/repos/CSCI3400/pset1/hwk1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/tim/repos/CSCI3400/hwk1/hwk1.csproj",
+        "projectUniqueName": "/home/tim/repos/CSCI3400/pset1/hwk1.csproj",
         "projectName": "hwk1",
-        "projectPath": "/home/tim/repos/CSCI3400/hwk1/hwk1.csproj",
+        "projectPath": "/home/tim/repos/CSCI3400/pset1/hwk1.csproj",
         "packagesPath": "/home/tim/.nuget/packages/",
-        "outputPath": "/home/tim/repos/CSCI3400/hwk1/obj/",
+        "outputPath": "/home/tim/repos/CSCI3400/pset1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/tim/.nuget/NuGet/NuGet.Config"

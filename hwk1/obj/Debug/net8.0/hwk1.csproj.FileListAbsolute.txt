@@ -12,3 +12,4 @@
 /home/tim/repos/CSCI3400/hwk1/obj/Debug/net8.0/hwk1.pdb
 /home/tim/repos/CSCI3400/hwk1/obj/Debug/net8.0/hwk1.genruntimeconfig.cache
 /home/tim/repos/CSCI3400/hwk1/obj/Debug/net8.0/ref/hwk1.dll
+/home/tim/repos/CSCI3400/hwk1/obj/Debug/net8.0/hwk1.sourcelink.json

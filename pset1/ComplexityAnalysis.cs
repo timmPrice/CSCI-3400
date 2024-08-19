@@ -12,7 +12,7 @@ public class ComplexityAnalysis{
         timer.Restart(); 
         
         for(int i = 0; i < n; i++) {
-            // running for loop n number of times    
+            // running for-loop n number of times    
         }
 
         timer.Stop();
@@ -24,9 +24,9 @@ public class ComplexityAnalysis{
         timer.Restart();
 
         for(int i = 0; i < n; i++) {
-            // running for loop n times
+            // running for-loop n times
             for(int y = 0; y < n; y++){
-                //running another for loop n times to make it n^2 
+                //running a nested for-loop n times to make it n^2 
             }
         }
 
@@ -39,14 +39,14 @@ public class ComplexityAnalysis{
        timer.Restart(); 
         
         for(int i = 0; i < n; i++) {
-            // running for loop n times
+            // running for-loop n times
             for(int y = 0; y < n; y++){
-                //running another for loop n times to make it n^2 
+                //running another for-loop n times to make it n^2 
             }
         }
         
         for(int i = 0; i < n; i++){ 
-            // running the for loop again for the plus 1
+            // running the for-loop again for the plus 1
         }
 
         timer.Stop();

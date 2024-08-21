@@ -53,4 +53,17 @@ public class ComplexityAnalysis{
         decimal micro = (decimal)timer.Elapsed.Ticks / 10M;
         return micro;
    }
+
+   public decimal average (Func <int, decimal> NN, int n){
+        return NN(n)/n;
+
+   }
+
+   public void warmUp(int n){
+        for(int i = 0; i < n; i++){
+            // Run loop n times
+            // to avoid including warmup time in measurements 
+        } 
+   }
 }
+            

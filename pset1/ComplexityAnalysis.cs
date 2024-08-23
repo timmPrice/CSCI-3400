@@ -56,7 +56,6 @@ public class ComplexityAnalysis{
 
    public decimal average (Func <int, decimal> NN, int n){
         return NN(n)/n;
-
    }
 
    public void warmUp(int n){
@@ -67,5 +66,13 @@ public class ComplexityAnalysis{
         } 
         timer.Stop(); 
    }
+
+    public void runTime(int[] n, decimal[] values){
+        for(int i = 0; i < n.Length; i++){
+            values[i] = Nlinear(n[i]);
+            values[i + 1] = NSquared(n[i]);
+            values[i + 2] = NSquaredN(n[i]);
+        }  
+    } 
 }
             

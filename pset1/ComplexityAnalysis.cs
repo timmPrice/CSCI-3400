@@ -6,9 +6,9 @@ namespace pset1;
 
 public class ComplexityAnalysis{
 
-   public static Stopwatch timer = new Stopwatch();
+    public static Stopwatch timer = new Stopwatch();
    
-   public decimal Nlinear(int n){       // O(n)
+    public decimal Nlinear(int n){       // O(n)
         timer.Restart(); 
         
         for(int i = 0; i < n; i++) {
@@ -18,9 +18,9 @@ public class ComplexityAnalysis{
         timer.Stop();
         decimal micro = (decimal)timer.Elapsed.Ticks / 10M;
         return micro;
-   }
+    }
    
-   public decimal NSquared(int n){           // O(n²n)
+    public decimal NSquared(int n){           // O(n²n)
         timer.Restart();
 
         for(int i = 0; i < n; i++) {
@@ -33,9 +33,9 @@ public class ComplexityAnalysis{
         timer.Stop();
         decimal micro = (decimal)timer.Elapsed.Ticks / 10M;
         return micro;
-   }
+    }
   
-   public decimal NSquaredN(int n){          // O(n² + n)
+    public decimal NSquaredN(int n){          // O(n² + n)
        timer.Restart(); 
         
         for(int i = 0; i < n; i++) {
@@ -52,27 +52,29 @@ public class ComplexityAnalysis{
         timer.Stop();
         decimal micro = (decimal)timer.Elapsed.Ticks / 10M;
         return micro;
-   }
+    }
 
-   public decimal average (Func <int, decimal> NN, int n){
-        return NN(n)/n;
-   }
-
-   public void warmUp(int n){
+    public void warmUp(int n){
         timer.Reset(); 
         for(int i = 0; i < n; i++){
             // Run loop n times
             // to avoid including warmup time in measurements 
         } 
         timer.Stop(); 
-   }
+    }
 
     public void runTime(int[] n, decimal[] values){
         for(int i = 0; i < n.Length; i++){
             values[i] = Nlinear(n[i]);
-            values[i + 1] = NSquared(n[i]);
-            values[i + 2] = NSquaredN(n[i]);
-        }  
-    } 
+            values[i + n.Length] = NSquared(n[i]);
+            values[i + n.Length * 2] = NSquaredN(n[i]);
+        }
+    }
+
+    public void consoleLog(decimal[] values){
+        for(int i = 0; i < values.Length; i++){
+            Console.WriteLine("{0,5:F1}, ", values[i]);
+        }
+    }
 }
             

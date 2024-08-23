@@ -13,25 +13,17 @@ public class Program {
         decimal[] runTime = new decimal[4];
         
         // warp-up method to eliminated slow outlier in the beginning
-        analysis.warmUp(1000);
+        analysis.warmUp(50);
 
-        int y = 0;
-        while(y < 100){
-            for(int i = 0; i < n.Length; i++) {
-                Console.Write("{0,5:F1}, ", analysis.Nlinear(n[i]));    // O(n)
-            }
-
-            for(int i = 0; i < n.Length; i++) { 
-                Console.Write("{0,5:F1}, ", analysis.NSquared(n[i]));   // O(n²)
-            }
-            
-            for(int i = 0; i < n.Length; i++) {
-                Console.Write("{0,5:F1}, ", analysis.NSquaredN(n[i]));  // O(n² + n)
-            }
-
-            Console.Write("\n");
-            y++;
-        } 
+        // loop that runs all methods 100 times 
+        // loop that runs each method 4 times for all values of n
+        
+        for(int i = 0; i < n.Length; i++){
+            Console.WriteLine("Runtime of { " + n[i] + " }");
+            Console.WriteLine(analysis.Nlinear(n[i]));  
+            Console.WriteLine(analysis.NSquared(n[i]));  
+            Console.WriteLine(analysis.NSquaredN(n[i]));  
+        }
     } 
 }
 

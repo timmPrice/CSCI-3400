@@ -60,10 +60,12 @@ public class ComplexityAnalysis{
    }
 
    public void warmUp(int n){
+        timer.Reset(); 
         for(int i = 0; i < n; i++){
             // Run loop n times
             // to avoid including warmup time in measurements 
         } 
+        timer.Stop(); 
    }
 }
             

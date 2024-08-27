@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pset1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6e32f5b0235eac4bf5b358aff5e38cee050b4c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+131f1852480c8a10361706a16c6737bc01cbf9b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("pset1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pset1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

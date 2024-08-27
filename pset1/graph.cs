@@ -6,7 +6,7 @@ public class Graphing {
 
     // diving the values in the array into a smaller array that can be graphed individually
     public decimal[] runTimeSpit(decimal[] runTime, int startingIndex, decimal[] plotPoints) {
-        for(int i = startingIndex; i < (runTime.Length / 4); i++){
+        for(int i = startingIndex; i < (runTime.Length / 3); i++){
             plotPoints[i] = runTime[i]; 
         }
         return plotPoints;
@@ -19,10 +19,10 @@ public class Graphing {
 
         while(i <= 12) { 
             decimal[] curLine = runTimeSpit(runTime, i, plotPoints);
-            complexityGraph.Add.Scatter(n, curLine);
+            complexityGraph.Add.ScatterLine(n, curLine);
             i += 4;
         }
         
-        complexityGraph.SavePng("graph.png", 400, 300);
+        complexityGraph.SavePng("graph.png", 1920, 1080);
     }
 }

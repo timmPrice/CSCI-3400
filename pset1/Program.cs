@@ -17,7 +17,10 @@ public class Program {
         analysis.runTime(n, runTime);
         analysis.consoleLog(runTime);
 
-        graph.sketchGraph(runTime, plotPoints, n);
+        // sketch graphs using Scott Plot Library
+        // Comment these methods out if the Libary isn't installed
+        graph.sketchGraph(runTime, n);
+        graph.sketchLinear(runTime, n);
     } 
 }
 

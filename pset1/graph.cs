@@ -6,8 +6,8 @@ public class Graphing {
 
     // diving the values in the array into a smaller array that can be graphed individually
     public decimal[] runTimeSpit(decimal[] runTime, int startingIndex, decimal[] plotPoints) {
-        for(int i = startingIndex; i < (runTime.Length / 3); i++){
-            plotPoints[i] = runTime[i]; 
+        for(int p = startingIndex; p < (runTime.Length / 3); p++){
+            plotPoints[p] = runTime[p]; 
         }
         return plotPoints;
     }
@@ -15,12 +15,10 @@ public class Graphing {
     public void sketchGraph(decimal[] runTime, decimal[] plotPoints, int[] n){
         
         ScottPlot.Plot complexityGraph = new();
-        int i = 0;
 
-        while(i <= 12) { 
-            decimal[] curLine = runTimeSpit(runTime, i, plotPoints);
+        for(int i = 0; i < 3; i ++){ 
+            decimal[] curLine = runTimeSpit(runTime, i * 4, plotPoints);
             complexityGraph.Add.ScatterLine(n, curLine);
-            i += 4;
         }
         
         complexityGraph.SavePng("graph.png", 1920, 1080);

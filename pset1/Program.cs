@@ -9,7 +9,7 @@ public class Program {
         ComplexityAnalysis analysis = new ComplexityAnalysis(); 
         Graphing graph = new Graphing();
         
-        int[] n = {500, 1200, 1500, 3000}; 
+        int[] n = {500, 1200, 2000, 3500}; 
         decimal[] runTime = new decimal[12];
         decimal[] plotPoints = new decimal[4];
         

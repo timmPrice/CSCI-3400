@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "UWS+MfQO1iOh93vQ20DBXMuHvb0PIPqO0Ua1UoN2jYksaxvuX77mV9tKGwVXlsb2MmtJKxTCmoO866onVaMXjQ==",
+  "dgSpecHash": "MpP0JnPzDFPSmrbFbHFMr70TfSib0e2HmsGgn68vny/++FPWFEHc6G3j4R8ngWYuOL8/sTCzrzPeXrv/Tspyjw==",
   "success": true,
   "projectFilePath": "/home/tim/repos/CSCI3400/pset1/pset1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/tim/.nuget/packages/scottplot/5.0.37/scottplot.5.0.37.nupkg.sha512",
+    "/home/tim/.nuget/packages/skiasharp/2.88.8/skiasharp.2.88.8.nupkg.sha512",
+    "/home/tim/.nuget/packages/skiasharp.nativeassets.linux.nodependencies/2.88.8/skiasharp.nativeassets.linux.nodependencies.2.88.8.nupkg.sha512",
+    "/home/tim/.nuget/packages/skiasharp.nativeassets.macos/2.88.8/skiasharp.nativeassets.macos.2.88.8.nupkg.sha512",
+    "/home/tim/.nuget/packages/skiasharp.nativeassets.win32/2.88.8/skiasharp.nativeassets.win32.2.88.8.nupkg.sha512"
+  ],
   "logs": []
 }

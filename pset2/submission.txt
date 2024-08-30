@@ -42,8 +42,10 @@ Homework 2; Timothy Price;
 4.  Recurrence
      Solve for BigOh: T(n) = 2T(n - 1) - 1 and T(0) = 2.
 
+     -- solution 4;
 
-
+     O(2^n)
+     steps to solution included in solution4.pdf
 
 
 

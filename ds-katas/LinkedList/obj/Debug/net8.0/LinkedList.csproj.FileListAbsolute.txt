@@ -1,0 +1,15 @@
+/home/tim/repos/CSCI3400/ds-katas/LinkedList/bin/Debug/net8.0/LinkedList
+/home/tim/repos/CSCI3400/ds-katas/LinkedList/bin/Debug/net8.0/LinkedList.deps.json
+/home/tim/repos/CSCI3400/ds-katas/LinkedList/bin/Debug/net8.0/LinkedList.runtimeconfig.json
+/home/tim/repos/CSCI3400/ds-katas/LinkedList/bin/Debug/net8.0/LinkedList.dll
+/home/tim/repos/CSCI3400/ds-katas/LinkedList/bin/Debug/net8.0/LinkedList.pdb
+/home/tim/repos/CSCI3400/ds-katas/LinkedList/obj/Debug/net8.0/LinkedList.GeneratedMSBuildEditorConfig.editorconfig
+/home/tim/repos/CSCI3400/ds-katas/LinkedList/obj/Debug/net8.0/LinkedList.AssemblyInfoInputs.cache
+/home/tim/repos/CSCI3400/ds-katas/LinkedList/obj/Debug/net8.0/LinkedList.AssemblyInfo.cs
+/home/tim/repos/CSCI3400/ds-katas/LinkedList/obj/Debug/net8.0/LinkedList.csproj.CoreCompileInputs.cache
+/home/tim/repos/CSCI3400/ds-katas/LinkedList/obj/Debug/net8.0/LinkedList.sourcelink.json
+/home/tim/repos/CSCI3400/ds-katas/LinkedList/obj/Debug/net8.0/LinkedList.dll
+/home/tim/repos/CSCI3400/ds-katas/LinkedList/obj/Debug/net8.0/refint/LinkedList.dll
+/home/tim/repos/CSCI3400/ds-katas/LinkedList/obj/Debug/net8.0/LinkedList.pdb
+/home/tim/repos/CSCI3400/ds-katas/LinkedList/obj/Debug/net8.0/LinkedList.genruntimeconfig.cache
+/home/tim/repos/CSCI3400/ds-katas/LinkedList/obj/Debug/net8.0/ref/LinkedList.dll

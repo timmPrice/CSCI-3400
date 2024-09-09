@@ -1,0 +1,17 @@
+public int distanceFromTop(T value){
+    int distance = 0; 
+    Node pTmp = top;
+    if (IsEmpty() == true){
+        return -1;
+    }
+    while (pTmp != null)
+    {   
+        if(pTmp.Data.Equals(value)){
+            return distance;
+        }
+
+        pTmp = pTmp.Next;
+        distance++;
+    }
+    return -1;
+}

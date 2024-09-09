@@ -292,6 +292,26 @@ namespace MyPrograms
             }
             return returnString.ToString();
         }
+
+        public OurList<T> skipList (int nth){
+            
+            OurList<T> newList = new OurList<T>();
+            int count = 0;
+                
+            if (IsEmpty() ==  true)
+                return newList;
+            Node pTmp = first;
+            while (pTmp != null)
+            {
+                if (count % nth == 0){
+                    newList.Add(pTmp.Data); 
+                }
+                pTmp = pTmp.Next;
+                count++;
+            }
+            return newList;  
+        }
+
     }
 }
 

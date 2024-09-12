@@ -1,0 +1,15 @@
+/home/tim/repos/CSCI3400/pset5/bin/Debug/net8.0/pset5
+/home/tim/repos/CSCI3400/pset5/bin/Debug/net8.0/pset5.deps.json
+/home/tim/repos/CSCI3400/pset5/bin/Debug/net8.0/pset5.runtimeconfig.json
+/home/tim/repos/CSCI3400/pset5/bin/Debug/net8.0/pset5.dll
+/home/tim/repos/CSCI3400/pset5/bin/Debug/net8.0/pset5.pdb
+/home/tim/repos/CSCI3400/pset5/obj/Debug/net8.0/pset5.GeneratedMSBuildEditorConfig.editorconfig
+/home/tim/repos/CSCI3400/pset5/obj/Debug/net8.0/pset5.AssemblyInfoInputs.cache
+/home/tim/repos/CSCI3400/pset5/obj/Debug/net8.0/pset5.AssemblyInfo.cs
+/home/tim/repos/CSCI3400/pset5/obj/Debug/net8.0/pset5.csproj.CoreCompileInputs.cache
+/home/tim/repos/CSCI3400/pset5/obj/Debug/net8.0/pset5.sourcelink.json
+/home/tim/repos/CSCI3400/pset5/obj/Debug/net8.0/pset5.dll
+/home/tim/repos/CSCI3400/pset5/obj/Debug/net8.0/refint/pset5.dll
+/home/tim/repos/CSCI3400/pset5/obj/Debug/net8.0/pset5.pdb
+/home/tim/repos/CSCI3400/pset5/obj/Debug/net8.0/pset5.genruntimeconfig.cache
+/home/tim/repos/CSCI3400/pset5/obj/Debug/net8.0/ref/pset5.dll

@@ -95,17 +95,18 @@ namespace ConsoleApplication1
         }
 
         public bool Contains(T value){
-            int pTemp = front;
-
             if (IsEmpty()){
                 return false;
-            } 
-            while (pTemp < size) {
+            }
+
+            int pTemp = front;
+             
+            while (pTemp != end) {
                 // .Equals() if comparing objects!
                 if(myArray[pTemp].Equals(value)){
                     return true;
                 } 
-                pTemp++; 
+                Increment(ref pTemp); 
             }
             return false;
         }

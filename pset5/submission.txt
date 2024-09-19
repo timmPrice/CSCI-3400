@@ -1,0 +1,16 @@
+public bool Contains(T value){
+    if (IsEmpty()){
+        return false;
+    }
+
+    int pTemp = front;
+
+    while (pTemp != end) {
+        // .Equals() if comparing objects!
+        if(myArray[pTemp].Equals(value)){
+            return true;
+        } 
+        Increment(ref pTemp); 
+    }
+    return false;
+}

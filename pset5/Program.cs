@@ -8,7 +8,7 @@ public class program {
         for (int i = 0; i < 100; i++){
             theQueue.Enqueue(i);
         }
-        int value = 3;
+        int value = 0;
         bool contains = theQueue.Contains(value);
         Console.WriteLine("the queue contains " + value + " : " + contains);
     }

@@ -1,0 +1,14 @@
+public int FindDepth(){
+    return FindDepth(root); 
+}
+
+private int FindDepth(Node node){
+    if (node == null){
+        return -1; 
+    }
+
+    int leftDepth = FindDepth(node.Left);
+    int rightDepth = FindDepth(node.Right);
+
+    return 1 + Math.Max(leftDepth, rightDepth);
+}
